@@ -13,6 +13,8 @@ logs/
 outputs/
 runs/
 checkpoints/
+classification_report.txt
+confusion_matrix.png
 *.pt
 *.pth
 *.h5
