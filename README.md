@@ -1,4 +1,4 @@
-# Fc-Fuse
+# FC-Fuse
 
 Fc-Fuse is a TensorFlow/Keras project for network traffic classification. It represents each traffic sample with three complementary feature groups: statistical flow features, packet-length sequence features, and payload byte sequence features. These feature groups are encoded by separate neural branches and then fused for final intrusion traffic classification.
 
@@ -7,7 +7,7 @@ The repository contains the code needed for data preprocessing, model constructi
 ## Project Structure
 
 ```text
-Fc-Fuse/
+FC-Fuse/
 |-- file/                  # Local dataset directory; CSV files are not tracked by Git
 |-- main/
 |   |-- data_pressor.py    # Data loading, feature preprocessing, and train/test splitting
